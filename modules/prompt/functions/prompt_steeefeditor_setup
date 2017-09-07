@@ -83,7 +83,7 @@ function prompt_steeef_setup {
 
   # Set editor parameters.
   zstyle ':prezto:module:editor:info:completing' format '%F{green}...%f'
-  zstyle ':prezto:module:editor:info:keymap:alternate' format '%F{yellow}--- NORMAL ---%f'
+  zstyle ':prezto:module:editor:info:keymap:alternate' format '%F{yellow}--- COMMAND ---%f'
   zstyle ':prezto:module:editor:info:keymap:insert' format '%F{yellow}--- INSERT ---%f'
   zstyle ':prezto:module:editor:info:keymap:overwrite' format '%F{yellow}--- REPLACE ---%f'
 
