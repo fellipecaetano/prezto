@@ -69,3 +69,5 @@ fi
 
 # Allow output redirection to overwrite existing files.
 setopt clobber
+
+export PATH="$HOME/.cargo/bin:$PATH"
