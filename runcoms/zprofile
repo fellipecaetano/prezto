@@ -70,4 +70,11 @@ fi
 # Allow output redirection to overwrite existing files.
 setopt clobber
 
+# Rust
 export PATH="$HOME/.cargo/bin:$PATH"
+
+# React Native
+export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+
