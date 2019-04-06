@@ -25,9 +25,8 @@ export PAGER='less'
 # Language
 #
 
-if [[ -z "$LANG" ]]; then
-  export LANG='en_US.UTF-8'
-fi
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
 
 #
 # Paths
@@ -70,10 +69,16 @@ fi
 # Allow output redirection to overwrite existing files.
 setopt clobber
 
+#
 # Rust
+#
+
 export PATH="$HOME/.cargo/bin:$PATH"
 
+#
 # React Native
+#
+
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/tools
